@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    padding: 10px;
+}
+
+.logo-h-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.menu {
+    width: calc(100% - 4em);
+    height: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.item {
+    margin-right: 1em;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_small_icon {
+    display: none;
+}
+
+.menu-small {
+    display: none;
+    height: 2em;
+}
+
+.menu-small-item {
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: white;
+}
+
+.homepage {
+    background-image: url(images/space-img.jpg);
+}
+
+.four {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.black-diri-img {
+    width: auto;
+    height: 350px;
+    padding: 30px;
+}
+
+.black-diri-two-img {
+    width: auto;
+    height: 350px;
+    padding: 30px;
+    margin-left: 30%;
+}
+
+.first {
+    display: flex;
+    width: 100%;
+}
+
+.second {
+    width: 50%;
+}
+
+.zemlya {
+    background-image: url(images/main-img.jpg);
+}
+
+.three {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+.zemlya-img {
+    width: auto;
+    height: 350px;
+    padding: 30px;
+    margin-left: 30%;
+}
+
+#sun-system {
+    background-image: url(images/sun-system.jpg);
+    background-size: cover;
+}
+
+.two {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+p {
+    padding-left: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.sun-system-img {
+    width: auto;
+    height: 350px;
+    padding: 30px;
+    margin-left: 30%;
+}
+
+#space-fakts {
+    background-image: url(images/kosmos2.jpg);
+}
+
+.one {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+li {
+    color: #fff;
+    padding-left: 30px;
+    padding: 10px;
+}
+
+.milky-way {
+    height: 400px;
+    width: auto;
+    padding: 30px;
+    margin-left: 30%;
+}
+
+#feedback {
+    background-color: #000;
+    color: #fff;
+    padding: 5%;
+}
+
+.feedback-h {
+    text-align: center;
+}
+
+p {
+    padding-top: 30px;
+}
+
+.container-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #343434;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+input {
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    margin-top: 30px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #121212;
+    color: #fff;
+}
+
+.developer {
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-logo {
+    height: auto;
+    width: 5%;
+    padding: 10px;
+}
+
+@media (max-width: 650px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-small {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        background-color: black;
+        transform: translateX(-100%);
+    }
+
+    .menu-small-item {
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu-small-item:first-child {
+        padding-top: calc(50px + 2em);
+    }
+
+    .menu_small_icon {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 414px) {
+    .first {
+        flex-direction: column;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        padding: 20px;
+    }
+
+    .black-diri-img {
+        width: 90%;
+    }
+
+    .black-diri-two-img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .third {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .zemlya-img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .zemlya {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sun-system-img {
+        width: 90%;
+        margin: 0;
+    }
+
+    #sun-system {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .opicanie-p {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .milky-way {
+        width: 90%;
+        margin: 0;
+    }
+
+    #space-fakts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email, .kontakti {
+        font-size: 14px;
+    }
+
+    #feedback-text {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 820px) {
+    .black-diri-two-img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .black-diri-img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .zemlya {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zemlya-img {
+        margin: 0;
+    }
+
+    #sun-system {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sun-system-img {
+        margin: 0;
+    }
+
+    #space-fakts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .milky-way {
+        margin: 0;
+    }
+}
